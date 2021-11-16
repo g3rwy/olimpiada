@@ -37,7 +37,7 @@ void delete_vids(video vids[],const uint &vid_count,const uint& day){
 	}
 }
 
-/*	solution choose_video(video vids[],const uint &vid_count, uint &day){
+solution choose_video(video vids[],const uint &vid_count, uint &day){
 		uint max_vids_left = 0, max_vids_idx = 0;
 		uint temp_day = day;
 		uint possibl_count;
@@ -66,8 +66,8 @@ void delete_vids(video vids[],const uint &vid_count,const uint& day){
 
 		return res;
 	}
-*/
 
+/*
 solution choose_video(video vids[],const uint &vid_count, uint &day){
 	uint min_vids_diff = 4294967295, min_vids_idx = 0;
 	uint temp_day = day;
@@ -92,6 +92,7 @@ solution choose_video(video vids[],const uint &vid_count, uint &day){
 
 	return res;
 }
+*/
 
 bool pred(video i) { return i.days == 0;}
 
